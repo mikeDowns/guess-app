@@ -8,6 +8,7 @@ import GameOver from "./screens/GameOver";
 import * as Font from "expo-font";
 import { AppLoading } from "expo";
 
+
 const fetchFonts = () => {
   return Font.loadAsync({
     "open-sans": require("./assets/fonts/OpenSans-Regular.ttf"),
