@@ -1,12 +1,13 @@
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { StyleSheet, View } from "react-native";
-import Header from "./Components/Header";
+import Header from "./components/Header";
 import StartGameScreen from "./screens/StartGameScreen";
 import GameScreen from "./screens/GameScreen";
 import GameOver from "./screens/GameOver";
 import * as Font from "expo-font";
 import { AppLoading } from "expo";
+
 
 
 const fetchFonts = () => {

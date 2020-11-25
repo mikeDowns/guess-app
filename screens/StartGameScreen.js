@@ -9,13 +9,13 @@ import {
   Alert
 } from 'react-native';
 
-import Card from '../Components/Card';
-import Input from '../Components/Input';
-import NumberContainer from '../Components/NumberContainer';
-import BodyText from '../Components/BodyText';
-import TitleText from '../Components/TitleText';
+import Card from '../components/Card';
+import Input from '../components/Input';
+import NumberContainer from '../components/NumberContainer';
+import BodyText from '../components/BodyText';
+import TitleText from '../components/TitleText';
 import Colors from '../constants/Colors';
-import MainButton from '../Components/MainButton';
+import MainButton from '../components/MainButton';
 
 const StartGameScreen = props => {
   const [enteredValue, setEnteredValue] = useState('');

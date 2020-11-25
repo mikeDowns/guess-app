@@ -30,4 +30,4 @@ const styles = StyleSheet.create({
 
 
 
-export default MainButton
+export default MainButton;
